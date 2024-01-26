@@ -21,6 +21,10 @@ time, mark, audio, video {
     font-family: 'Raleway', sans-serif;
 }
 
+.fa-magnifying-glass {
+    display: none;
+}
+
 :root {
     --main-color: #0065FC;
     --main-bg-color: #F2F2F2;
@@ -471,6 +475,23 @@ align-self: stretch;
 @media (max-width: 767.98px) {
     main {
         /* padding: 0 50px; */
+    }
+
+    form button {
+        display: none;
+    }
+
+    .fa-magnifying-glass {
+        display: inline-flex;
+        padding: 15px 16px;
+        align-items: center;
+        gap: 10px;
+        flex-shrink: 0;
+        color: #FFF;
+        border-radius: 15px;
+        border: 1px solid var(--Blue, #0065FC);
+        background: var(--Blue, #0065FC);
+        box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
     }
 
     .main-container {
