@@ -574,6 +574,7 @@ align-self: stretch;
     
     .filter {
         width: 125px;
+        padding: 12px 8px;
     }
 
     .hebergements-and-populaires {
